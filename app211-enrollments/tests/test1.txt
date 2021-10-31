@@ -1,1 +1,15 @@
-Student student1 = new Student("Rasheed Akande", 21903120);
+Student lekan = new Student("Lekan Akande", 21903120);
+lekan.enrol(computing);
+lekan.print();
+ Student ID: 21903120 Name: Lekan Akande
+computing.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1CTG1: BSc computing
+
+lekan.printCourse();
+Gita.enrol(computing);
+Gita.print();
+ Student ID: 21903120 Name: gita

@@ -8,6 +8,11 @@
 public class ModuleMark
 {
     private int mark;
+    
+    
+    private String title;
+    
+    
     private Module module;
     
     /**
@@ -48,6 +53,8 @@ public class ModuleMark
     public Module getModule()
     {
         return module;
+        
+        module.print();
     }
     
     /**
@@ -58,5 +65,12 @@ public class ModuleMark
     {
         module.print();
         System.out.print("\t  " + getCredit() + "\t" + mark);
+    }
+    
+    public void addModule(Module module)
+    {
+        thismodule =module;
+        
+        
     }
 }
